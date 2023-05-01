@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('kep2_asd.png');
+    margin: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    counter-reset: my-sec-counter;
+    background-attachment: fixed;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .box {
+    position: relative;
+    width: 600px;
+    height: 450px;
+    background-color: #07131d;
+    text-align: center;
+    border: 1px solid gray;
+  }
+  p {
+    font-size: 30px; 
+    color: #4dcfc7;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    max-width: 500px;
+    text-indent: 50px;
+  }
+  
+.gomb {
+    width: 100%;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    position: absolute;
+    background-color: #4dcfc7;
+    color: #000;
+    border: 1px solid #4dcfc7;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 30px;
+  }

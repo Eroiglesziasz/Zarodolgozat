@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #07131d;
+    /*background-image: url('kozos/kep5.jpg'); */
+    margin: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    counter-reset: my-sec-counter;
+    background-attachment: fixed;
+}
+
+.buttona {
+    width: 100%;
+    font-size: 2em;
+    display: block;
+    margin: 0 auto
+}
+
+.btn-blue-black{
+    color: #4dcfc7;
+    background-color: #07131d;
+
+}
+
+.container {
+
+    background-color: cadetblue;
+    background-size: auto;
+
+    flex-direction: column;
+    justify-content: start;
+    margin: auto;
+}
+ul.valaszok {
+    margin-left: 0px;
+    padding: 0px;
+  }
+  ul {
+    margin: 5px 20px;
+    list-style: none;
+    margin: 5px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  li {
+    font-size: 16px;
+    text-align: left;
+    list-style: none;
+    margin-left: 60px;
+    display: flex; 
+  }
+
+  
+
+
+.asd::before {
+    counter-increment: my-sec-counter;
+    content: "" counter(my-sec-counter) ". ";
+
+}
+.asd {
+    font-weight: bold;
+    word-wrap: break-word; 
+}
+
+
+@media (min-width: 1400px) {.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+     max-width: unset; 
+
+
+}
+}
